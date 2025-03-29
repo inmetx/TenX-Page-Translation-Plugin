@@ -1,0 +1,187 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TenX翻译设置</title><link href="../static/css/options.css" rel="stylesheet"><style>
+/* 暗色主题样式覆盖 */
+.trans-ctx--container-options {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+.trans-ctx--container-options .trans-ctx--container-header {
+  border-bottom: 1px solid #2c2c2c !important;
+  background-color: #121212 !important;
+}
+.trans-ctx--container-options .trans-ctx--container-header .trans-ctx--name {
+  color: #ffffff !important;
+}
+.trans-ctx--container-options .trans-ctx--wrapper-config-panel {
+  background-color: #121212 !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
+  padding: 20px !important;
+}
+.trans-ctx--container-options .trans-ctx--title {
+  color: #ffffff !important;
+  text-align: left !important;
+  font-size: 28px !important;
+  margin-bottom: 30px !important;
+}
+.trans-ctx--container-options .trans-ctx--form-item-label {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  margin-bottom: 10px !important;
+}
+.trans-ctx--container-options .t-select,
+.trans-ctx--container-options select,
+.trans-ctx--container-options input[type="text"],
+.trans-ctx--container-options .t-input {
+  background-color: #1e1e1e !important;
+  border-color: #2c2c2c !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  height: 40px !important;
+  width: 100% !important;
+}
+.trans-ctx--container-options .t-button {
+  background-color: #1976d2 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+.trans-ctx--container-options .t-button--default {
+  background-color: #333333 !important;
+}
+.trans-ctx--container-options .t-checkbox {
+  color: #ffffff !important;
+}
+
+/* 设置区块样式 */
+.setting-block {
+  background-color: #1a1a1a !important;
+  border-radius: 8px !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+  border: 1px solid #2c2c2c !important;
+}
+.setting-block-title {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+  color: white !important;
+}
+
+/* 界面语言区域 */
+.interface-language-section {
+  margin-bottom: 25px !important;
+}
+.interface-language-section select {
+  width: 100% !important;
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+}
+
+/* 自动翻译网站区域 */
+.auto-translate-section {
+  margin-bottom: 25px !important;
+}
+.website-input-container {
+  display: flex !important;
+  margin-bottom: 10px !important;
+}
+.website-input {
+  flex: 1 !important;
+  background-color: #1e1e1e !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 6px !important;
+  color: white !important;
+  padding: 10px !important;
+}
+.remove-website-btn {
+  width: 36px !important;
+  height: 36px !important;
+  background-color: #e74c3c !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50% !important;
+  margin-left: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+}
+.add-website-btn {
+  background-color: #1976d2 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+}
+
+/* API配置区域 */
+.api-config-section {
+  margin-bottom: 25px !important;
+}
+.api-provider {
+  width: 100% !important;
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+}
+.api-endpoint {
+  width: 100% !important;
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+}
+.api-key-container {
+  position: relative !important;
+}
+.api-key {
+  width: 100% !important;
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+}
+.toggle-visibility {
+  position: absolute !important;
+  right: 10px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  cursor: pointer !important;
+  color: white !important;
+}
+
+/* 保存按钮 */
+.save-settings-btn {
+  width: 100% !important;
+  padding: 12px !important;
+  margin-top: 20px !important;
+  background-color: #1976d2 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+}
+
+/* 表单元素间距 */
+.trans-ctx--form-item {
+  margin-bottom: 20px !important;
+}
+
+/* 设置组件之间的间距和布局 */
+.trans-ctx--container-config-panel .trans-ctx--wrapper-config-panel {
+  max-width: 700px !important;
+  width: 100% !important;
+}
+</style></head><body><div id="app"></div><script defer="defer" src="../options/options.js"></script></body></html>

@@ -1,0 +1,23 @@
+{
+  "extName": {
+    "message": "TenX翻译"
+  },
+  "extDescription": {
+    "message": "TenX翻译是一款基于腾讯翻译的浏览器扩展，支持双语对照和网页翻译。"
+  },
+  "translateWebPage": {
+    "message": "翻译为 $1",
+    "placeholder": {
+      "targetLang": {
+        "content": "$1",
+        "example": "中文"
+      }
+    }
+  },
+  "translateSelectionText": {
+    "message": "翻译“%s”"
+  },
+  "translateImage": {
+    "message": "翻译此图片"
+  }
+}
